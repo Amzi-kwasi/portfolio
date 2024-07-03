@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amzi Akrofi - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            border-bottom: 3px solid #444;
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        header nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        .showcase {
+            height: 100vh;
+            background: url('your-background-image.jpg') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            font-size: 55px;
+            margin-bottom: 0;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .main-content {
+            padding: 50px 0;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .main-content div {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: calc(33% - 40px);
+            text-align: center;
+        }
+        .main-content img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .about, .contact {
+            background: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .about h2, .contact h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        .about p, .contact p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+        .contact a {
+            display: inline-block;
+            color: #fff;
+            background: #0493ac;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+            margin: 0 10px;
+        }
+        .contact a:hover {
+            background: #038c9e;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Name</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="showcase">
+        <div class="content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Web Developer and Designer</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="main-content">
+        <div>
+            <img src="project1.jpg" alt="Project 1">
+            <h2>AL-App project</h2>
+            <p>Show casing some tools for editing, learning, saving. Act like an Odoo application</p>
+        </div>
+        <div>
+            <img src="project2.jpg" alt="Project 2">
+            <h2>ALECOM PROJECT</h2>
+            <p>An ecommerce webapp for selling and buying.</p>
+        </div>
+        <div>
+            <img src="project3.jpg" alt="Project 3">
+            <h2>Code Editor</h2>
+            <p>A user friendly code editor to help beginners code easily</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer with expertise in HTML/CSS, JavaScript,C++ and various frameworks like React/React Native, PHP, Angular Js and Bootstrap. I enjoy creating responsive, user-friendly websites and web applications.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me via email or connect with me on LinkedIn.</p>
+            <a href="mailto:kwasyamzi@gmail.com">Email Me</a>
+            <a href="https://www.linkedin.com/in/Amzi Kwasy" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Amzi Akrofi. All rights reserved.</p>
+            <p>
+                <a href="https://github.com/Amzi-kwasi" target="_blank">GitHub</a> |
+                <a href="https://twitter.com/yourname" target="_blank">Twitter</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
